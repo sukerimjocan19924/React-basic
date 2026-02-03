@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.nav-list li {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.nav-list li span {
+    display: block
+}
+
+.nav-list li span.dsc {
+    font-size: 10px;
+}
