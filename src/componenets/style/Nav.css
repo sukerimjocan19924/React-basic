@@ -1,0 +1,18 @@
+nav {
+    display: inline-block;
+}
+
+.nav-list {
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-list li::before {
+    content: "  |";
+}
+
+.nav-list li {
+    list-style: none;
+}

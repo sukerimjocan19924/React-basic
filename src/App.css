@@ -1,0 +1,40 @@
+.main-wrap {
+    display: flex;
+    margin: 10px 0;
+    gap: 10PX;
+    height: 500px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    background-color: rgb(241, 255, 226);
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+    /* align-items: flex-start; */
+}
+
+img {
+    max-width: 100%;
+}

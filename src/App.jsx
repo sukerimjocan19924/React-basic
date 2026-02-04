@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import Main from './components/Main'
-import Article from './components/Article'
-import Section from './components/Section'
-import Header from './components/Header'
-
+import Header from './componenets/Header'
+import Aside from "./componenets/Aside"
+import Main from './componenets/Main'
+import Footer from './componenets/Footer'
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Section/>
-      <Article/>
-      <h1>hello react</h1>
-      <Main/>
+        <Header/>
+        <div className='main-wrap'>
+          <Aside/>
+          <Main/>
+        </div>
+        <Footer/>
     </div>
   )
 }

@@ -1,0 +1,15 @@
+header {
+    padding: 10px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+nav {
+    text-align: center;
+}
