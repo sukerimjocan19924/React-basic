@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 const Counter = () => {
     const [count, setCount] = useState(0)
 
-    console.log(count)
+    // console.log(count)
 
     const up = () => {
         setCount(count+1)
