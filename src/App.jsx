@@ -2,16 +2,13 @@ import './App.css'
 import Button from './components/Button'
 import Main from './components/Main'
 import Section from './components/Section'
+import Input from './components/Input'
 
 function App() {
-  const sectionData= {
-    content: '섹션에 전달되는 데이터',
-    bgcolor: "skyblue"
-  }
+
   return (
     <div>
-      <Section data={sectionData}/>
-      {/* <Section data={...sectionData}/> */}
+
       <hr/>
       <Main content={'메인 영역입니다.1'} bgcolor={'orange'}/>
       <Main content={'메인 영역입니다.2'} bgcolor={'orange'}/>
