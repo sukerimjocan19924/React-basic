@@ -1,28 +1,21 @@
-import './App.css'
-import Button from './components/Button'
-import Main from './components/Main'
-import Section from './components/Section'
-import Input from './components/Input'
+import React from 'react'
+import Counter from './components/Counter'
+import Exam1 from './components/Exam1'
+import Exam2 from './components/Exam2'
+import Exam3 from './components/Exam3'
 
-function App() {
-
+const App = () => {
+  const user = {
+    name: 'Alice',
+    age: 21
+  }
   return (
     <div>
-
-      <hr/>
-      <Main content={'메인 영역입니다.1'} bgcolor={'orange'}/>
-      <Main content={'메인 영역입니다.2'} bgcolor={'orange'}/>
-      <Main bgcolor={'orange'}/>
-      <hr/>
-      <Button text={'메일'} color={'red'}/>
-      <Button text={'카페'}  color={'blue'}>
-        <span>자식요소 blue</span>
-      </Button>
-      <Button text={'블로그'} color={'green'}>
-        <span>자식요소 green</span>
-      </Button>
-      <Button text={'블로그'}/> 
-      <h1>hello react</h1>
+      <h2>useState 연습</h2>
+      <Exam3 />
+      <Exam2 />
+      <Exam1 {...user}/>
+      <Counter />
     </div>
   )
 }
