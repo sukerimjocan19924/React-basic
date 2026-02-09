@@ -1,16 +1,11 @@
 import React from 'react'
-import SquareCalc from './components/SquareCalc'
-import SortableList from './components/SortableList'
-import PeopleList from './components/PeopleList'
+import UserList from './assets/components/UserList'
 
 const App = () => {
   return (
     <div>
-      <PeopleList/>
-      <hr/>
-      <SortableList/>
-      <hr/>
-      <SquareCalc/>
+      <h1>axios</h1>
+      <UserList/>
     </div>
   )
 }
